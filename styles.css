@@ -3,3 +3,59 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+.img-thumbnail{
+    height: 15em;
+    width: 15em;
+    margin-top: -2em;
+}
+
+.capa{
+    background-image: url(/src/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+    height: 28em;
+    color: white;
+    text-align: center;
+    padding-top: 24em;
+    
+}
+
+.igni_capa{
+    background-image: url(/src/igni/igni_capa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -4em;
+    height: 30em;
+}
+
+.aard_capa{
+    background-image: url(/src/aard/aard_capa.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -25em;
+    height: 30em;
+}
+
+.yrden_capa{
+    background-image: url(/src/yrden/yrden_capa.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -25em;
+    height: 30em;
+}
+
+.yrden-text{
+    color: #9400D3;
+}
