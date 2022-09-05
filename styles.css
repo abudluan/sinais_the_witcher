@@ -81,9 +81,11 @@ html {
     height: 30em;
 }
 
+
+
 footer {
     background-color: #343A40;
     color: white;
     height: 5em;
-
+    text-align: center;
 }
