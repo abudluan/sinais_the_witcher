@@ -8,9 +8,10 @@ html {
 }
 
 .img-thumbnail{
-    height: 15em;
-    width: 15em;
+    height: 12em;
+    width: 12em;
     margin-top: -2em;
+    margin-left: 1em;
 }
 
 .capa{
@@ -58,4 +59,31 @@ html {
 
 .yrden-text{
     color: #9400D3;
+}
+
+.quen_capa{
+    background-image: url(/src/quen/quen_capa.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -10em;
+    height: 30em;
+}
+
+.axii_capa{
+    background-image: url(/src/axii/axii_capa.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -21em;
+    height: 30em;
+}
+
+footer {
+    background-color: #343A40;
+    color: white;
+    height: 5em;
+
 }
