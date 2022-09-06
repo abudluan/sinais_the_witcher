@@ -7,6 +7,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 .img-thumbnail{
     height: 12em;
     width: 12em;
@@ -24,18 +26,18 @@ html {
     color: white;
     text-align: center;
     padding-top: 24em;
-    
 }
 
 .igni_capa{
-    background-image: url(/src/igni/igni_capa.jpg);
+    background-image: url(/src/igni/igni_capa.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
-    background-position-y: -4em;
-    height: 30em;
+    background-position-y: -14em;
+    height: 25em;
 }
+
 
 .aard_capa{
     background-image: url(/src/aard/aard_capa.webp);
@@ -43,8 +45,8 @@ html {
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
-    background-position-y: -25em;
-    height: 30em;
+    background-position-y: -32em;
+    height: 25em;
 }
 
 .yrden_capa{
@@ -54,7 +56,7 @@ html {
     background-size: cover;
     background-position-x: center;
     background-position-y: -25em;
-    height: 30em;
+    height: 25em;
 }
 
 .yrden-text{
@@ -67,8 +69,8 @@ html {
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
-    background-position-y: -10em;
-    height: 30em;
+    background-position-y: -20em;
+    height: 25em;
 }
 
 .axii_capa{
@@ -78,7 +80,41 @@ html {
     background-size: cover;
     background-position-x: center;
     background-position-y: -21em;
-    height: 30em;
+    height: 25em;
+}
+
+@media screen and (max-width: 768px){
+    .igni_capa{
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
+    .aard_capa{
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
+    .yrden_capa{
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
+    .quen_capa{
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: center;
+        background-position-y: 2em;
+        height: 26em;
+    }
+    .axii_capa{
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
 }
 
 
