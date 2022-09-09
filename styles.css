@@ -7,15 +7,25 @@ html {
     scroll-behavior: smooth;
 }
 
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: roboto;
+    font-size: 1.2em;
+}
+
+.trechos{
+    font-style: italic;
+    font-size: 1em;
+    font-family: roboto;
+}
+
 .img-thumbnail{
     height: 12em;
     width: 12em;
     margin-top: -2em;
     margin-left: 1em;
-}
-
-.bg-text{
-    font-family: roboto;
 }
 
 .capa{
@@ -27,7 +37,10 @@ html {
     height: 30em;
     color: white;
     text-align: center;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
     padding-top: 24em;
+    text-transform: uppercase;
+    font-family: roboto;
 }
 
 .igni_capa{
@@ -76,17 +89,18 @@ html {
 }
 
 .axii_capa{
-    background-image: url(/src/axii/axii_capa.webp);
+    background-image: url(/src/axii/axii_mobile.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
-    background-position-y: -21em;
+    background-position-y: -24em;
     height: 25em;
 }
 
 @media screen and (max-width: 768px){
     .igni_capa{
+        background-image: url(/src/igni/igni-mobile.webp);
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
@@ -112,11 +126,21 @@ html {
         height: 26em;
     }
     .axii_capa{
+        background-image: url(/src/axii/axii_mobile.webp);
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
         height: 26em;
     }
+
+    .img-thumbnail{
+        height: 5em;
+        width: 5em;
+        margin-top: -2em;
+        margin-left: 1em;
+    }
+    
+
 }
 
 
