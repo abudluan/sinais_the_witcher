@@ -22,8 +22,8 @@ p{
 }
 
 .img-thumbnail{
-    height: 12em;
-    width: 12em;
+    height: 9em;
+    width: 9em;
     margin-top: -2em;
     margin-left: 1em;
 }
@@ -65,12 +65,12 @@ p{
 }
 
 .yrden_capa{
-    background-image: url(/src/yrden/yrden_capa.webp);
+    background-image: url(/src/yrden/yrden_capa.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
-    background-position-y: -25em;
+    
     height: 25em;
 }
 
@@ -79,7 +79,7 @@ p{
 }
 
 .quen_capa{
-    background-image: url(/src/quen/quen_capa.webp);
+    background-image: url(/src/quen/quen_mobile.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -89,12 +89,12 @@ p{
 }
 
 .axii_capa{
-    background-image: url(/src/axii/axii_mobile.webp);
+    background-image: url(/src/axii/axii_capa.webp);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
-    background-position-y: -24em;
+    background-position-y: -8em;
     height: 25em;
 }
 
@@ -113,12 +113,14 @@ p{
         height: 26em;
     }
     .yrden_capa{
+        background-image: url(/src/yrden/yrden_mobile.webp);
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
         height: 26em;
     }
     .quen_capa{
+        background-image: url(/src/quen/quen_mobile.webp);
         background-size: cover;
         background-attachment: fixed;
         background-position-x: center;
@@ -134,10 +136,11 @@ p{
     }
 
     .img-thumbnail{
-        height: 5em;
-        width: 5em;
+        height: 4em;
+        width: 4em;
         margin-top: -2em;
         margin-left: 1em;
+        padding: 0;
     }
     
 
