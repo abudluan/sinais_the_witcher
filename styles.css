@@ -99,6 +99,20 @@ p{
 }
 
 @media screen and (max-width: 768px){
+    .capa{
+        background-image: url(/src/capa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: center;
+        height: 30em;
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        padding-top: 24em;
+        text-transform: uppercase;
+        font-family: roboto;
+    }
     .igni_capa{
         background-image: url(/src/igni/igni-mobile.webp);
         background-size: cover;
