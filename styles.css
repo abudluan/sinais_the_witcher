@@ -7,6 +7,9 @@ html {
     scroll-behavior: smooth;
 }
 
+h1{
+    font-family: roboto !important;
+}
 
 p{
     text-align: justify;
@@ -26,6 +29,7 @@ p{
     width: 9em;
     margin-top: -2em;
     margin-left: 1em;
+    padding: 0em;
 }
 
 .capa{
@@ -99,6 +103,102 @@ p{
 }
 
 @media screen and (max-width: 768px){
+    p{
+        text-align: justify;
+        text-justify: inter-word;
+        font-family: roboto;
+        font-size: 1.5em;
+    }
+
+    .trechos{
+        font-style: italic;
+        font-size: 1.2em;
+        font-family: roboto;
+    }
+    
+    .img-thumbnail{
+        height: 5em;
+        width: 5em;
+        margin-top: -2em;
+        margin-left: 1em;
+        padding: -0;
+    }
+
+    .capa{
+        background-image: url(/src/capa.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: center;
+        height: 30em;
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px 4px rgb(0, 0, 0);
+        padding-top: 24em;
+        text-transform: uppercase;
+        font-family: roboto;
+    }
+    .igni_capa{
+        background-image: url(/src/igni/igni-mobile.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
+    .aard_capa{
+        background-image: url(/src/aard/aard_mobile.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
+    .yrden_capa{
+        background-image: url(/src/yrden/yrden_mobile.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
+    .quen_capa{
+        background-image: url(/src/quen/quen_mobile.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position-x: center;
+        background-position-y: 2em;
+        height: 26em;
+    }
+    .axii_capa{
+        background-image: url(/src/axii/axii_mobile.webp);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 26em;
+    }
+
+    
+    
+    
+
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+    p{
+        text-align: justify;
+        text-justify: inter-word;
+        font-family: roboto;
+        font-size: 1.5em;
+    }
+
+    .trechos{
+        font-style: italic;
+        font-size: 1.2em;
+        font-family: roboto;
+    }
+
     .capa{
         background-image: url(/src/capa.jpg);
         background-repeat: no-repeat;
@@ -157,8 +257,6 @@ p{
         margin-left: 1em;
         padding: 0;
     }
-    
-
 }
 
 
