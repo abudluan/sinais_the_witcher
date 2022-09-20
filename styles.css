@@ -17,8 +17,7 @@ p{
 
 .trechos{
     font-style: italic;
-    font-size: 1em;
-    font-family: roboto;
+    font-size: 0.9em;
 }
 
 .img-thumbnail{
@@ -41,7 +40,6 @@ p{
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     padding-top: 24em;
     text-transform: uppercase;
-    font-family: roboto;
 }
 
 .igni_capa{
@@ -131,7 +129,6 @@ p{
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
         padding-top: 24em;
         text-transform: uppercase;
-        font-family: roboto;
     }
     .igni_capa{
         background-image: url(/src/igni/igni-mobile.webp);
@@ -184,14 +181,12 @@ p{
     p{
         text-align: justify;
         text-justify: inter-word;
-        font-family: roboto;
         font-size: 1.5em;
     }
 
     .trechos{
         font-style: italic;
         font-size: 1.2em;
-        font-family: roboto;
     }
 
     .capa{
@@ -206,7 +201,6 @@ p{
         text-shadow: 2px 2px 4px rgb(0, 0, 0);
         padding-top: 24em;
         text-transform: uppercase;
-        font-family: roboto;
     }
     .igni_capa{
         background-image: url(/src/igni/igni-mobile.webp);
