@@ -1,13 +1,16 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: roboto !important;
+    
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+h1{
+    font-family: roboto !important;
+}
 
 p{
     text-align: justify;
