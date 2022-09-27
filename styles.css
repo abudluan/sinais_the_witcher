@@ -8,7 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 p{
     text-align: justify;
     text-justify: inter-word;
@@ -102,6 +101,10 @@ p{
         text-align: justify;
         text-justify: inter-word;
         font-size: 1.5em;
+    }
+
+    .credit{
+        font-size: 1em;
     }
 
     .trechos{
