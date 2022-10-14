@@ -8,6 +8,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 p{
     text-align: justify;
     text-justify: inter-word;
@@ -50,7 +52,6 @@ p{
     background-position-y: -14em;
     height: 25em;
 }
-
 
 .aard_capa{
     background-image: url(/src/aard/aard_mobile.webp);
