@@ -7,7 +7,6 @@
 html {
     scroll-behavior: smooth;
 }
-
 .navbar a{
     color: black !important;
 }
@@ -278,8 +277,9 @@ p{
 footer {
     background-color: #343A40;
     color: white;
-    height: 6em;
+    height: 4em;
     text-align: center;
+    padding: 1.5em;
     
 }
 
