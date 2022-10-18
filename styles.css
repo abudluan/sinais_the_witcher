@@ -8,7 +8,7 @@ html {
     scroll-behavior: smooth;
 }
 .navbar a{
-    color: black !important;
+    color: #343A40 !important;
 }
 
 .bgcolor.scrolled a{
