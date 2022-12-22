@@ -61,7 +61,7 @@ p{
     background-attachment: fixed;
     background-size: cover;
     background-position-x: center;
-    background-position-y: -14em;
+    background-position-y: center;
     height: 25em;
 }
 
